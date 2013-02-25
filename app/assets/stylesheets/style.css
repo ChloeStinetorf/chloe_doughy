@@ -31,6 +31,11 @@ a
 
 .button:hover
 {
+  color: #1b3d50;
+}
+
+.button:hover
+{
   background-color: #a7e2d2;
 }
 
@@ -58,6 +63,10 @@ a
   color: #1B3D50;
 }
 
+#start_order
+{
+
+}
 
 .submit_button
 {

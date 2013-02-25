@@ -24,7 +24,7 @@
       <h1>Fresh cookie dough delivered right to your door.</h1>
         <div class="row button_padding">
           <div class="twelve columns">
-            <button class="round button cta"><%= link_to "Start Order", page_path("dough_order") %></button>
+            <%= link_to "Start Order", page_path("dough_order"), :id => 'start_order', :class => "round button cta" %>
           </div>
         </div>
     </div>

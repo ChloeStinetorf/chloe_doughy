@@ -12,5 +12,5 @@ $(function(){
 
 function color_the_button()
 {
-  $(this).children('a').toggleClass('excitement');
+  $(this).toggleClass('excitement');
 }
